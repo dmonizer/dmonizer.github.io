@@ -55,7 +55,7 @@ function googleBookmarksToGeoJson(xmlstring) {
 function convert() {
   var xml = document.getElementById("googleXML").value;
   gj = document.getElementById("geojson");
-  p = document.createElement("p");
+  p = document.createElement("pre");
   p.innerText = JSON.stringify(googleBookmarksToGeoJson(xml));
   gj.appendChild(p);
   }
