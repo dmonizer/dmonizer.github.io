@@ -2,9 +2,17 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Title</title>
+  <title>Code snippets</title>
 </head>
 <body>
-
+  <h1>Google maps saved places > GeoJSON</h1>
+  <p>
+    Go to <a href="https://www.google.com/bookmarks/lookup?output=xml&pli=1">here</a> (log into google account if not logged), 
+    select everything, copy to clipboard, then come back here and paste it here:
+    <textarea id="googleXML"></textarea>
+    <button onclick="convert()">get GeoJSON</button>
+  <div id="geojson"></div>
+  </p>
+  <script src="js/googleXmlToGeojson.js"></script>
 </body>
 </html>
