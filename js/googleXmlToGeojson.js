@@ -44,7 +44,7 @@ function googleBookmarksToGeoJson(xmlstring) {
 
   }
 
-  var mapsUrls = getMapsUrlItems(createArrayFromNodelist(getUrlList(parseXML(googleBookmarksXml))))
+  var mapsUrls = getMapsUrlItems(createArrayFromNodelist(getUrlList(parseXML(xmlstring))))
   var mapsBookmarks = mapsUrls.map((urlItem) => urlItem.parentElement);
   return {
     "type" : "FeatureCollection",
