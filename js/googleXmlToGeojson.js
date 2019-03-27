@@ -52,11 +52,20 @@ function googleBookmarksToGeoJson(xmlstring) {
   } 
 }
 
+function makeJsonLintLink(geoJSON) {
+  a = document.createElement("a");
+  a.href="http://jsonlint.com/?json="+geoJSON;
+  a.textContent = "View this linted & prettified";
+  a.target="_blank";
+  return a;
+}
 function convert() {
   var xml = document.getElementById("googleXML").value;
   gj = document.getElementById("geojson");
-  p = document.createElement("pre");
-  p.innerText = JSON.stringify(googleBookmarksToGeoJson(xml.trim()));
+  p = document.createElement("p");
+  json = JSON.stringify(googleBookmarksToGeoJson(xml.trim()));
+  p.innerText = json;
+  gj.appendChild(makeJsonLintLink(json));
   gj.appendChild(p);
   }
 
