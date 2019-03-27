@@ -54,7 +54,7 @@ function googleBookmarksToGeoJson(xmlstring) {
 
 function makeJsonLintLink(geoJSON) {
   a = document.createElement("a");
-  a.href="http://jsonlint.com/?json="+geoJSON;
+  a.href="http://jsonlint.com/?json="+encodeURI(geoJSON);
   a.textContent = "View this linted & prettified";
   a.target="_blank";
   return a;
