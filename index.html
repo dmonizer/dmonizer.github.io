@@ -5,7 +5,10 @@
   <title>Code snippets</title>
 </head>
 <body>
-  <h1>Google maps saved places > GeoJSON</h1>
+  <h2>Convert Google maps saved places to GeoJSON</h2>
+  <p>Works, if places are saved with URL like <i>http://maps.google.com/?q=xx.xxxxxxxxxx,yy.yyyyyyyyyy</i>. 
+    Should (but currently <b>does not</b>) filter out other format maps links, thus produced GeoJSON might not 
+    be valid (those entries have coordinates array filled with null's)</p>
   <p>
     Go to <a href="https://www.google.com/bookmarks/lookup?output=xml&pli=1">here</a> (log into google account if not logged), 
     select everything, copy to clipboard, then come back here and paste it here:
