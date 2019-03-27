@@ -20,7 +20,7 @@ function googleBookmarksToGeoJson(xmlstring) {
   var getMapsUrlItems = (urlsArray) => urlsArray.filter((urlItem) => itemHasMapsUrl(urlItem))
 
   var parseGmapsUrl = (url) => {
-    return url.substr(url.indexOf('?q=') + 3, url.length - url.indexOf('?q=') + 3).split(',');
+    return url.substr(url.indexOf('?q=') + 3, url.length - url.indexOf('?q=') + 3).split(',').map((item)=>+item).reverse();
   }
 
   var parseLabels = (nodeList) => {
