@@ -10,12 +10,20 @@
     Should (but currently <b>does not</b>) filter out other format maps links, thus produced GeoJSON might not 
     be valid (those entries have coordinates array filled with null's)</p>
   <p>
-    Go to <a href="https://www.google.com/bookmarks/lookup?output=xml&pli=1">here</a> (log into google account if not logged), 
-    select everything, copy to clipboard, then come back here and paste it here:
-    <textarea id="googleXML"></textarea>
-    <button onclick="convert()">get GeoJSON</button>
-  <div id="geojson"></div>
-  </p>
+    <ul>
+      <li>Go to <a href="https://www.google.com/bookmarks/lookup?output=xml&pli=1">here</a></li>
+      <li>(log into google account if not logged),</li>
+      <li>view source(!),</li>
+      <li>select everything,</li>
+      <li>copy to clipboard, </li>
+      <li>come back here and paste it below.</li>
+    <ul>
+      </p>
+      <b>NB!</b> Make sure first line (&lt;?xml version="1.0"?&gt;) ends with line break.
+      <p><textarea id="googleXML" style="width:800px;height:500px"></textarea></p>
+      <p><button onclick="convert()">get GeoJSON</button></p>
+      <p><div id="geojson"></div></p>
+  
   <script src="js/googleXmlToGeojson.js"></script>
 </body>
 </html>
