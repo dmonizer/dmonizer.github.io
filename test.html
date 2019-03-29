@@ -1,9 +1,12 @@
 <html>
 <body>
 <script>
-  
+  const opts = {"mode":"cors",
+                "method":"post",
+                "body": JSON.stringify({"id":"0x4693362e69de760b:0x810a7b1a8c7c6c05"})
+               }
   fetch("https://br4402kgne.execute-api.eu-west-1.amazonaws.com/default/getCoords", 
-         {"mode":"cors","method":"post","body": {"id":"0x4693362e69de760b:0x810a7b1a8c7c6c05"}})
+         opts)
    .then(response=>response.ok?response.json():console.log(response))
    .then(json=>console.log(json))
 </script>
