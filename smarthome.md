@@ -17,8 +17,7 @@ To have my apartement (and also, to some extent my summercottage) monitorable an
 
 ### later:
 - electricity consumption monitoring
-
-RPI3 should also function as a local "NAS" and PIEHOLE (secondary priority)
+- RPI3 should also function as a local "NAS" and PIEHOLE (secondary priority)
 
 ## How:
 ### Raspberry pie 3
