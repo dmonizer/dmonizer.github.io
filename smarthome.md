@@ -1,4 +1,5 @@
-# Creating smart home DIYC (DoItYourselforderfromChina :) )
+# Creating smart home DIYC
+(DIYC => DoItYourselforderfromChina)
 
 ## Idea: 
 To have my apartement (and also, to some extent my summercottage) monitorable and somewhat manageable via network.
