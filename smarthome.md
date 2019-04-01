@@ -6,12 +6,12 @@ To have my apartement (and also, to some extent my summercottage) monitorable an
 ### Initial wishes:
 - apartement:
   - temp & humidity monitoring
--* automatic (and remote) management of heapump, waterheater and radiators
-* cameras
-* door and windows open/close sensors
+  - automatic (and remote) management of heapump, waterheater and radiators
+  - cameras
+  - door and windows open/close sensors
 
 - cottage:
-* remote (over GSM) temperature monitoring and switching radiators on/off
+  - remote (over GSM) temperature monitoring and switching radiators on/off
 
 ### later:
 - electricity consumption monitoring
