@@ -35,9 +35,6 @@ install message broker on docker
 https://hub.docker.com/_/eclipse-mosquitto
 
 
-later
-https://community.home-assistant.io/t/zigbee2mqtt-getting-rid-of-your-proprietary-zigbee-bridges-xiaomi-hue-tradfri/52108
-
 
 ## interesting
 https://github.com/1technophile/OpenMQTTGateway/wiki
@@ -72,3 +69,7 @@ https://github.com/1technophile/OpenMQTTGateway/wiki
 
 ### Broadlink mini WiFi 2 IR bridge
 - https://www.banggood.com/Broadlink-Black-Bean-Smart-Home-Wifi-Remote-IR-Controller-Universal-Appliances-Smart-Control-p-1049494.html?rmmds=myorder
+
+
+## In case of using Zigbee devices
+https://community.home-assistant.io/t/zigbee2mqtt-getting-rid-of-your-proprietary-zigbee-bridges-xiaomi-hue-tradfri/52108
