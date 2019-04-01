@@ -1,4 +1,4 @@
-# Creating smart home DIY
+# Creating smart home DIYC (DoItYourselforderfromChina :) )
 
 ## Idea: 
 To have my apartement (and also, to some extent my summercottage) monitorable and somewhat manageable via network.
@@ -59,6 +59,7 @@ https://www.banggood.com/SONOFF-DW1-433Mhz-Door-Window-Sensor-Compatible-With-RF
 
 ### 433 thermo- & hygrometer (ordered)
 https://www.banggood.com/Digoo-DG-R8H-433MHz-Wireless-Digital-Hygrometer-Thermometer-Weather-Station-Sensor-for-TH11300-8380-p-1178108.html?rmmds=myorder&cur_warehouse=CN
+  - https://github.com/dgomes/homeGW
 
 ### 433 water leakage sensor (ordered)
 https://www.banggood.com/DY-SQ100B-Water-Leakage-Detector-Rustproof-Sensor-Alarm-433MHz-for-Security-Home-Alarm-System-p-1266537.html?rmmds=myorder
