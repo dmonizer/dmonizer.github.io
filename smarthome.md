@@ -73,3 +73,9 @@ https://github.com/1technophile/OpenMQTTGateway/wiki
 
 ## In case of using Zigbee devices
 https://community.home-assistant.io/t/zigbee2mqtt-getting-rid-of-your-proprietary-zigbee-bridges-xiaomi-hue-tradfri/52108
+
+
+
+## HomeAssistant topics/addons for investigation
+
+- https://www.home-assistant.io/components/sensor.gtfs/
