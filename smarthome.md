@@ -1,7 +1,9 @@
-Creating smart home DIY
+#Creating smart home DIY
 
-Idea: to have my apartement (and also, to some extent my summercottage) monitorable and somewhat manageable via network.
-Initial wishes:
+##Idea: 
+To have my apartement (and also, to some extent my summercottage) monitorable and somewhat manageable via network.
+
+###Initial wishes:
 - apartement:
 -- temp & humidity monitoring
 -- automatic (and remote) management of heapump, waterheater and radiators
@@ -11,22 +13,22 @@ Initial wishes:
 - cottage:
 -- remote (over GSM) temperature monitoring and switching radiators on/off
 
-later:
+###later:
 -- electricity consumption monitoring
 
 
 
-How:
-Raspberry pie 3
+##How:
+###Raspberry pie 3
 
-Install raspbian
+###Install raspbian
 enable ssh
 
-Install hassio and portainer
+###Install hassio and portainer
 https://community.home-assistant.io/t/this-is-how-i-installed-hass-io-on-ubuntu-with-docker-portainer-via-ssh/71743
 
 
-------- TODO: -------
+## TODO:
 
 install message broker on docker
 https://hub.docker.com/_/eclipse-mosquitto
