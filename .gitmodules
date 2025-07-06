@@ -1,0 +1,4 @@
+[submodule "binrev"]
+	path = binrev
+	url = github-dmon:dmonizer/binrev.git
+	branch = gh-pages
